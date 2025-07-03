@@ -1,3 +1,6 @@
-from django.contrib import admin
+# backend/api/admin.py
 
-# Register your models here.
+from django.contrib import admin
+from .models import VolunteerEvent
+
+admin.site.register(VolunteerEvent)
