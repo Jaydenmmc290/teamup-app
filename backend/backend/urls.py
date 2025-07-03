@@ -18,7 +18,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from django.http import HttpResponse
-
+def home_view(request):
+    return HttpResponse("<h1>Welcome to TeamUp Backend API</h1><p>Use /api/ to access the API.</p>")
 
 urlpatterns = [
     path('', lambda request: HttpResponse("Welcome to the TeamUp API!")),
