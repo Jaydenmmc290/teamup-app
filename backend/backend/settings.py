@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-&yr)_ntwj(y=v_yu=gw#7vszb(xlzz55fxajrv7@yp_v^rdmuo
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['teamup-backend-01v9.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
